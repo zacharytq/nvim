@@ -28,6 +28,7 @@ vim.opt.signcolumn = "yes"                      -- always show the sign column, 
 vim.opt.wrap = false                            -- display lines as one long line
 vim.opt.scrolloff = 8                           -- is one of my fav
 vim.opt.sidescrolloff = 8
+vim.opt.termguicolors = true                    -- get colorful
 
 vim.opt.shortmess:append "c"
 
