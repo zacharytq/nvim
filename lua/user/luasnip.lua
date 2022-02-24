@@ -38,7 +38,9 @@ ls.snippets = {
       "lastmod: "}), func(date, {}), text({"",
       "tags: ["}), insert(2), text({"]",
       "comments: true",
-      "---", ""}),
+      "---", ""}), text({"",
+      "# ",}), rep(1), text({"",
+      ""}),
       insert(0)
     })
   }
