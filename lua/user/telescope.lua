@@ -104,3 +104,11 @@ telescope.setup {
 }
 
 require('telescope').load_extension('fzf')
+
+-- Keymaps 
+
+local keymap = vim.api.nvim_set_keymap
+local opts = { noremap = true, silent = true }
+
+keymap('n', '<leader>tf', ':Telescope find_files<CR>', opts)
+keymap('n', '<leader>tg', ':Telescope live_grep<CR>', opts)
