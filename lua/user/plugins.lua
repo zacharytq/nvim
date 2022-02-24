@@ -81,6 +81,9 @@ return packer.startup(function(use)
   -- autopairs
   use "windwp/nvim-autopairs"
 
+  -- telekasten
+  use 'renerocksai/telekasten.nvim'
+
   -- Automatically set up configuration after cloning packer.nvim
   -- Put this at the end after all plugins
   if PACKER_BOOTSTRAP then

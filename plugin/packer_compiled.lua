@@ -144,6 +144,11 @@ _G.packer_plugins = {
     path = "/home/ztq/.local/share/nvim/site/pack/packer/start/popup.nvim",
     url = "https://github.com/nvim-lua/popup.nvim"
   },
+  ["telekasten.nvim"] = {
+    loaded = true,
+    path = "/home/ztq/.local/share/nvim/site/pack/packer/start/telekasten.nvim",
+    url = "https://github.com/renerocksai/telekasten.nvim"
+  },
   ["telescope-fzf-native.nvim"] = {
     loaded = true,
     path = "/home/ztq/.local/share/nvim/site/pack/packer/start/telescope-fzf-native.nvim",
