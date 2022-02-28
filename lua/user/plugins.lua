@@ -84,6 +84,9 @@ return packer.startup(function(use)
   -- telekasten
   use 'renerocksai/telekasten.nvim'
 
+  -- LSP
+  use 'neovim/nvim-lspconfig'
+
   -- Automatically set up configuration after cloning packer.nvim
   -- Put this at the end after all plugins
   if PACKER_BOOTSTRAP then
